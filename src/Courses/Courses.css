@@ -1,0 +1,284 @@
+.div1-nav {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+  backdrop-filter: blur(4px);
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.div1-nav a {
+  text-decoration: none;
+  color: black;
+  transition: color 1.5s ease;
+}
+.div1-nav a:hover{
+  color: #7c900bec;
+}
+
+.container{
+  gap: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-log{
+  color: black;
+  padding: 10px;
+  border: 2px solid black;
+}
+.log-regis a{
+  padding-left: 10px;
+  font-family: Inter;
+  font-size: 20px;
+}
+.log-regis a:hover{
+  color: orange;
+}
+
+.home{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  width: 70px;
+  height: 30px;
+}
+
+.courses{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  width: 49px;
+  height: 30px;
+}
+
+.pages{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  width: 49px;
+  height: 30px;
+}
+
+.blog{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  width: 49px;
+  height: 30px;
+}
+
+.gallery{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  width: 49px;
+  height: 30px;
+}
+
+.shop{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  width: 49px;
+  height: 30px;
+}
+
+.contact{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  width: 49px;
+  height: 30px;
+}
+
+.div2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  background-color: #DA853D;
+  margin-bottom: 50px;
+}
+
+.text-div1{
+  margin-left: 130px;
+  color: white;
+}
+
+.text-div2{
+  margin-left: 120px;
+}
+
+.div2-search {
+  display: flex;
+  justify-content: center;
+}
+.div2-bg{
+  background-color: #f5e9d4;
+  height: 15vh;
+  width: 17vw;
+  margin-bottom: 20px;
+}
+
+.div2-bg2{
+  background-color: #f5e9d4;
+  height: 35vh;
+  width: 17vw;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.div2-bg3{
+  background-color: #f5e9d4;
+  height: 30vh;
+  width: 17vw;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.div2-bg4{
+  background-color: #f5e9d4;
+  height: 25vh;
+  width: 17vw;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.divider-course{
+  border: 0;
+  height: 2px;
+  background: black;
+  margin: 20px 0;
+  width: 20vh;
+}
+
+.divider-cost{
+  border: 0;
+  height: 2px;
+  background: black;
+  margin: 20px 0;
+  width: 5vh;
+}
+.divider-date{
+  border: 0;
+  height: 2px;
+  background: black;
+  margin: 20px 0;
+  width: 12vh;
+}
+
+.search-input2 {
+  margin-top: 35px;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  width: 10vw;
+  outline: none;
+}
+
+.search-button2 {
+  margin-top: 35px;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-input3 {
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  width: 10vw;
+  outline: none;
+}
+
+.search-button3 {
+  padding: 10px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.checkbox-group, .radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-group label, .radio-group label{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: Inter;
+  font-size: 16px;
+}
+
+.checkbox-group input[type="checkbox"], radio-group input[type="radio"] {
+  margin-right: 10px;
+}
+
+.div-course, .div-cost, .div-state-date {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.div3{
+  gap: 50px;
+  display: flex;
+}
+.div3-first{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.div3-first1{
+  display: flex;
+  gap: 10px;
+}
+
+.div3-first2{
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.div3-first2 h3{
+  padding-left: 500px;
+  margin: 0;
+}
+
+.div3-pic123{
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+}
+
